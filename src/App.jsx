@@ -13,18 +13,17 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-        "No",
-        "Think again; I give great massages! 💆‍♂️",
-        "Give it another thought; I know all your favorite Taylor Swift songs! 🎶",
-        "Are you absolutely certain? I'll even let you win at board games... 🎲",
-        "This could be a mistake! Who will bring you snacks? 🍪",
-        "Last chance! I was going to compliment your outfit... 👗",
-        "You might regret this! I was *just* about to play you some Farhan Akhtar songs... 🎶",
-        "Give it another thought; I promise to help with debugging *without* roasting your code! 🖥️",
-        "Are you absolutely certain? I can try to be less annoying with my jokes... (maybe) 🤡",
-        "Plsss? 😭 I promise extra cuddles! 🤗",
-        "Okay, okay, last attempt… but are you *really* saying no to your best hype-man? 🥺",
-        "Fine, but just know… I'll still be here annoying you anyway! 😏"
+        "Naur",
+        "Think again; you'll miss out on various intellectual debtates! 🤔",
+        "Give it another thought; we could even learn to dance, maybe salsa, together! 👯",
+        "Are you sure? We could hike every mountain 🧗‍♀️ and make so many dog friends! 🐶",
+        "Are you absolutely certain? Missing out on sketching each other's ideas? 🎨",
+        "Last chance! I could compose music for you... 🎹",
+        "You might regret this! I was *just* about to play you some Lana songs... 🎶",
+        "Don't want to zone 2 🏃‍♀️ and talk philosophy? 📚",
+        "Okay, okay, last attempt… I give great massages! 💆‍♂️",
+        "Plsss? 😭 I can try to be less cringey with my lines 🤡",
+        "Fine, my loss, but just know… I'll still be here annoying you anyway! 😏"
       ]
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -36,7 +35,7 @@ export default function Page() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
-            Na Ni Premam!!! ❤️
+            Me taim to man parchu! ❤️
           </div>
         </>
       ) : (
@@ -54,7 +53,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Amru will you be my forever Valentine?
+            Leemah, will you be my girlfriend?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
@@ -62,7 +61,7 @@ export default function Page() {
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
             >
-              Yes
+              Omigawd Yes!
             </button>
             <button
               onClick={handleNoClick}
