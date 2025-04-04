@@ -33,7 +33,7 @@ export default function Page() {
     <div className="overflow-hidden flex flex-col items-center justify-center pt-4 h-screen -mt-16 selection:bg-rose-600 selection:text-white text-zinc-900">
       {yesPressed ? (
         <>
-          <img src="https://tenor.com/en-IN/view/kissing-love-gif-19833482" />
+          <img src="https://media.tenor.com/mTJ4GSXWbHMAAAAj/kissing-love.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
             Me taim to man parchu! ❤️
           </div>
@@ -50,7 +50,7 @@ export default function Page() {
           />
           <img
             className="h-[230px] rounded-lg shadow-lg"
-            src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://media.tenor.com/CtS0MGYRI6wAAAAi/animals.gif"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
             Leemah, will you be my girlfriend?
