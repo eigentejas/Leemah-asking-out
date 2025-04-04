@@ -2,7 +2,7 @@
 
 ![Project Image](https://i.imgur.com/8q884zI.png)
 
-Welcome to the most adorable project you've ever seen! This is a special React application designed to ask that special someone: "Amri will you be my forever Valentine?".
+Welcome to the most adorable project you've ever seen! This is a special React application designed to ask that special someone: "Leemah will you be my forever Valentine?".
 
 ## 💖 What's Inside? 💖
 [Link to site](https://formyvalentine.netlify.app)
