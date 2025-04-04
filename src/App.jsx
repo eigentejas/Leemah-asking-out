@@ -35,7 +35,7 @@ export default function Page() {
         <>
           <img src="https://media.tenor.com/mTJ4GSXWbHMAAAAj/kissing-love.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
-            Me taim to man parchu! ❤️
+            Mai tai man pasand chhu! ❤️
           </div>
         </>
       ) : (
